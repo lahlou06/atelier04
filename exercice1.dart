@@ -11,4 +11,8 @@ class Couleur {
 
   Couleur.bleu() : this(0, 0, 255);
 }
+void afficherCouleur() {
+    print('(R : $r, V : $g, B : $b)');
+  }
+}
     
