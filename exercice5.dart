@@ -28,3 +28,13 @@ class Rectangle extends Forme {
     return longueur * largeur;
   }
 }
+void main() {
+  Cercle c = Cercle(3.0);
+  Rectangle r = Rectangle(4.0, 5.0);
+
+  c.afficherMessage();
+  print("Aire du cercle : ${c.calculerAire().toStringAsFixed(2)}");
+
+  r.afficherMessage();
+  print("Aire du rectangle : ${r.calculerAire().toStringAsFixed(2)}");
+}
